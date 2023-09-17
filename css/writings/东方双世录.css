@@ -8,7 +8,7 @@ body {
     font-family: HarmonyOS;
     background-image: url("../../writings/img/东方双世录\(background\).png");
     background-size: cover;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(14px);  
 }
