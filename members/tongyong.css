@@ -1,0 +1,43 @@
+@font-face {
+    font-family: HarmonyOS;
+    src: url("../css/font/HarmonyOS_Sans_SC_Regular.ttf");
+}
+
+html, body {
+    height: 100%;
+    font-family: HarmonyOS;
+}
+
+body {
+    
+    height: 100%;
+    display: flex;
+    color: white;
+}
+
+.img {
+    width: 40%;
+    margin-top: 200px;
+}
+
+img.sunboytpb {
+    width: 100%;
+}
+
+.text {
+    width: 60%;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .img {
+        display: none;
+    }
+
+    .text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}

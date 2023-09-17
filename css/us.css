@@ -1,0 +1,86 @@
+@font-face {
+    font-family: HarmonyOS;
+    src: url("font/HarmonyOS_Sans_SC_Regular.ttf");
+}
+
+body {
+    font-family: HarmonyOS;
+    color: white;
+}
+
+.title {
+    height: 80px;
+    background-color: blue;
+    display: flex;
+}
+
+.logo {
+    width: 60%;
+}
+
+.functions {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.back {
+    position: absolute;
+    left: 70px;
+    top: 36px;
+}
+
+.details {
+    text-align: center;
+    height: 885px;
+    position: relative;
+    background-image: url("../img/BACKGROUND.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+iframe.members {
+    width: 100%;
+    height: 100%;
+}
+
+svg path {
+    transition: fill 0.2s;
+}
+
+svg:hover path {
+    fill: red;
+}
+
+svg:active path {
+    fill: darkred;
+}
+
+.data {
+    text-align: center;
+}
+
+a.home, a.writings, a.about, a.pay {
+    color: white;
+    height: 20%;
+    margin-top: 25px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a.home, a.writings, a.about {
+    margin-right: 30px;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: darkred;
+}
+
+p.content {
+    font-size: x-small;
+    color: black;
+}

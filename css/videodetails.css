@@ -1,0 +1,20 @@
+@font-face {
+    font-family: HarmonyOS;
+    src: url("font/HarmonyOS_Sans_SC_Regular.ttf");
+}
+
+body {
+    font-family: HarmonyOS;
+}
+
+p {
+    cursor: pointer;
+}
+
+p:hover {
+    color: blue;
+}
+
+p:active {
+    color: red;
+}

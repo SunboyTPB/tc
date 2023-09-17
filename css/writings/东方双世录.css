@@ -1,0 +1,99 @@
+@font-face {
+    font-family: HarmonyOS;
+    src: url("../font/HarmonyOS_Sans_SC_Regular.ttf");
+}
+
+
+body {
+    font-family: HarmonyOS;
+    background-image: url("../../writings/img/东方双世录\(background\).png");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(14px);  
+}
+
+.title {
+    height: 80px;
+    background-color: blue;
+    display: flex;
+}
+
+.logo {
+    width: 60%;
+}
+
+.functions {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.back {
+    position: absolute;
+    left: 70px;
+    top: 36px;
+}
+
+.noveldetails {
+    height: 885px;
+    display: flex;
+}
+
+.huabao {
+    width: 40%;
+    position: relative;
+}
+
+.details {
+    width: 60%;
+}
+
+.noveltitle {
+    height: 20%;
+}
+
+.content {
+    height: 40%;
+}
+
+.website {
+    height: 40%;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: darkred;
+}
+
+a {
+    color: blue;
+    height: 20%;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+svg path {
+    transition: fill 0.2s;
+}
+
+svg:hover path {
+    fill: red;
+}
+
+svg:active path {
+    fill: darkred;
+}
+
+@media only screen and (max-width: 768px) {
+    .huabao {
+        display: none;
+    }
+
+    .details {
+        width: 100%;
+    }
+}
